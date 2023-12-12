@@ -9,8 +9,9 @@ namespace CursoEFCore_.Migrations
     public partial class PrimeiraMigration : Migration
     {
         /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up(MigrationBuilder migrationBuilder)//Mudanças que estão acontecendo com a migração
         {
+            //migrationBuilder.Sql("CREATE FUNCTION ...");//criar função na base de dados~/Função executada juntamente com a migração
             migrationBuilder.CreateTable(
                 name: "Clientes",
                 columns: table => new
@@ -51,8 +52,7 @@ namespace CursoEFCore_.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ClientId = table.Column<int>(type: "int", nullable: false),
-                    ClienteId = table.Column<int>(type: "int", nullable: false),
+                    ClienteId = table.Column<int>(nullable: false),
                     IniciadoEm = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
                     FinalizadoEm = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TipoFrete = table.Column<int>(type: "int", nullable: false),
@@ -121,8 +121,9 @@ namespace CursoEFCore_.Migrations
         }
 
         /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
+        protected override void Down(MigrationBuilder migrationBuilder)//Reverter as alterações mencionadas no Método UP
         {
+            //migrationBuilder.Sql("CREATE FUNCTION ...");//Drop função criada
             migrationBuilder.DropTable(
                 name: "PedidoItens");
 

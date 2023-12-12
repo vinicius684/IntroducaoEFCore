@@ -66,3 +66,8 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\Cu
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\obj\Debug\net7.0\CursoEFCore_.pdb
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\obj\Debug\net7.0\CursoEFCore_.genruntimeconfig.cache
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\obj\Debug\net7.0\ref\CursoEFCore_.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\bin\Debug\net7.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\bin\Debug\net7.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\IntroducaoAoEFCore\CursoEFCore_\bin\Debug\net7.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll

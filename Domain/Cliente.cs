@@ -9,14 +9,15 @@ namespace CursoEFCore_.Domain
     //[Table("Clientes")]//vai ser o nome da Tabela //Ex DataAnnotations
     internal class Cliente
     {
-       // [Key]
+       //[Key]
         public int Id { get; set; }
-       // [Required]
+       //[Required]
         public string Nome { get; set; }
         //[Column("Phone")]//vai ser o nome da coluna
         public string Telefone { get; set; }
         public string CEP { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
+        //public string Email { get; set; }//criado para RollBack
     }
 }

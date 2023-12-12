@@ -12,7 +12,7 @@ namespace CursoEFCore_.Domain
         public int Id { get; set; }
         public string CodigoBarras { get; set; }
         public string Descricao { get; set;}
-        public double Valor { get; set;} //não aceitou double na hora da migration - do custo estava com decimal 
+        public double Valor { get; set;} //não aceitou decimal na hora da migration - do curso estava com decimal 
         public TipoProduto TipoProduto { get; set; }
         public bool Ativo { get; set; }
     }

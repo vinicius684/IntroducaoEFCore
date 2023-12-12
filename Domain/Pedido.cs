@@ -1,6 +1,7 @@
 ﻿using CursoEFCore_.ValueObjects;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace CursoEFCore_.Domain
 {
     internal class Pedido
     {
+        [Key]
         public int Id { get; set; }
         public int ClientId { get; set; }
         public Cliente Cliente { get; set; }
